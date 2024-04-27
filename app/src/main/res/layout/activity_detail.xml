@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/download"
+    android:padding="16dp"
+    tools:context=".ui.DetailActivity">
+
+    <ImageView
+        android:paddingTop="20dp"
+        android:id="@+id/ivDetailFotoItem"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher_background"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/tvDetailName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/tvBio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"/>
+
+
+
+
+
+</LinearLayout>
